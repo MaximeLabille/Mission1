@@ -16,6 +16,7 @@ body {
     color: var(--main-text-color);
     font-family: "JetBrains Mono", monospace;
     font-optical-sizing: auto;
+    margin-bottom: 32px;
 }
 
 .nav {
@@ -97,4 +98,18 @@ body {
     display: flex;
     margin-top: 6px;
     margin-bottom: 6px;
+}
+
+.footer {
+    background-color: rgb(63, 63, 63);
+    color: white !important;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 2px;
+}
+
+.footer > a {
+    color: white;
 }
